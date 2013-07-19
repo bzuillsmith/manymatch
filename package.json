@@ -1,0 +1,35 @@
+{
+  "name": "manymatch",
+  "version": "0.0.1",
+  "description": "A glob matcher that can match against a series of glob patterns. It doesn't crawl the file system.",
+  "main": "manymatch.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bzuillsmith/manymatch.git"
+  },
+  "keywords": [
+    "glob",
+    "url",
+    "path",
+    "node",
+    "nodejs",
+    "minimatch"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "author": "Ben Zuill-Smith <bzuillsmith@gmail.com> (http://yourblog.com/)",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/bzuillsmith/manymatch/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/bzuillsmith/manymatch/issues"
+  },
+  "dependencies": {
+    "minimatch": "~0.2.12"
+  }
+}
